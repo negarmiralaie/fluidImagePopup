@@ -15,7 +15,6 @@ imageWrappers.forEach(imageWrapper => {
         // change image of modal dynamically
         // get src of modal img from data-original attribute and put it in img src so the img changes as each imageWrapper is being clicked
         const dynamicImgSrc = imageWrapper.getAttribute("data-original");
-        console.log(dynamicImgSrc);
         modalImg.src=dynamicImgSrc;
 
         // now we change text of modal using alt of img
