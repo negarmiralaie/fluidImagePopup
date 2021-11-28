@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
 
 *,
 *::before,
@@ -62,6 +62,7 @@ body {
             height: 100%;
             opacity: 0; //to hide it
             pointer-events: none;  //so we can`t click on it when its not there so it wont conflict with clivking behind stuff
+            transition: 0.25s ease-out;
             //if we do display:none; then we cant animate opacity to one
 
             img{
